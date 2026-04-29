@@ -1,5 +1,10 @@
 function isSameType(value1, value2) {
   //your js code here
+	if(Number.isNan(a) && Number.isNan(b)) {
+		return true
+	}
+
+	return typeof a === typeof b;
 }
 
 // do not change the code below.
